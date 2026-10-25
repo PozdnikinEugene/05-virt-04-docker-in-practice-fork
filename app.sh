@@ -15,6 +15,7 @@ for cmd in git docker; do
         exit 1
     fi
 done
+
 echo -e "\n=== Подготовка репозитория ==="
 if [ -d "$TARGET_DIR" ]; then
     echo "Обновление существующего репозитория в $TARGET_DIR..."
